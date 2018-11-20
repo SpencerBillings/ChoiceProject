@@ -29,9 +29,10 @@ public class ChoiceController
 	
 	public void start()
 	{
-		
+	
 	}
 	
+
 	private void arrayInit()
 	{
 		JOptionPane.showMessageDialog(null, "Look at this cake!", "Arrays", JOptionPane.INFORMATION_MESSAGE, icons[1]);
@@ -48,6 +49,8 @@ public class ChoiceController
 			{
 				cakeArray[index] = new Cake(index * 30);
 			}
+			
+			JOptionPane.showMessageDialog(null, "", "Arrays", JOptionPane.INFORMATION_MESSAGE, icons[4]);
 		}
 	}
 }
